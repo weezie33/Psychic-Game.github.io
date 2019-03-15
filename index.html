@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Psychic-Game.github.io</title>
-    <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap File -->
@@ -14,12 +14,39 @@
 <!-- END Head  -->
 <!-- Start Body  -->
 <body>
-    <div class="container" id="containermain"></div>
 
-<script type="text/javascript" src="javascript/game.js"></script>
+  <div class="container" id="containermain">
+      <div class="row" id="rowheading1">
+          <div class="col-12" id="columnheading1">
+              <h1 class="text-center" id="heading1">Psychic Game</h1>
+              <h2 class="text-center">Guess what letter I'm thinking of?</h2>
+              <hr color="black">
+          </div>
+      </div>    
+      <div class="row" id="rowheading2">
+        <div class="col-12" id="columnheading2">
+          <div class="statcard">
+            <h2 id="heading2">Stats</h2>
+              <div id="wins">Wins: </div>
+              <div id="losses">Losses: </div>
+              <div id="userGuess">Guesses Remaining: </div> 
+              <div id="previousGuesses">Your Guesses So Far: </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="rowheading3">
+        <div class="col-12" id="columnheading3"> 
+            <h2 id="heading2">Rules</h2>
+            <div class="rules">
+              <p id="p2">The Psychic Game is a 1:1 game against you and the computer. The first side to reach infinity wins the game. You have nine attempts per round to guess the correct letter. If you guess the letter correctly you score one point for the round; however, if you do not guess correctly within nine attempts the computer will score one point. After nine attempts the round is over.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<script src="javascript/game.js"></script>
 
 </body>
 <!-- END Body  -->
-
 <!-- END html  -->
 </html>
