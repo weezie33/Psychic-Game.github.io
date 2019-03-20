@@ -1,4 +1,4 @@
-//References for this html/js come from GWARL201901FSF3-FT 23-RPS-Coded Solved rps-7.html. This source is from the GW Coding Bootcamp, as well as terminal references from w3school.com, and Meri Engel, "merihelp.net:JavaScript part two of the word guessing game.mp4", https://www.youtube.com/watch?v=6hEjUIRuGSU&t=9s; Retrieved March 15, 2019.
+//References for this html/js come from GWARL201901FSF3-FT 12-CrystalExample Solved 12.html and my Psychic assignment. This source is from the GW Coding Bootcamp, as well as terminal references from w3school.com. Retrieved March 18, 2019.
 
 //Alert the player the basic instructions of the game.
   alert("Welcome, pick a letter between 'a' and 'z' but choose wisely as you only have nine tries.");
